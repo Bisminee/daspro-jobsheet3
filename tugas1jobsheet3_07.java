@@ -10,7 +10,7 @@ public class tugas1jobsheet3_07 {
         pListrik = cin.nextDouble();
         tagihan = pListrik * tarif;
         boolean lebih = pListrik > 500;
-        System.out.println("Tagihan listrik anda Rp " + tagihan);
+        System.out.println("Tagihan listrik anda Rp " + tagihan + " kWh");
         System.out.println("apakah melebihi 500 kWh? " + lebih);
     }    
 }
